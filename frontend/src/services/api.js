@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://hrms-lite-hn4f.onrender.com'
 });
 
 export const addEmployee = (data) => API.post('/employees', data);

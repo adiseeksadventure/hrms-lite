@@ -54,6 +54,7 @@ Deployment
 
 ## Project Structure
 
+```text
 hrms-lite
 │
 ├── backend
@@ -69,6 +70,8 @@ hrms-lite
 │   │   └── App.js
 │
 └── README.md
+```
+
 
 
 ## Setup Instructions

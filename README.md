@@ -59,18 +59,42 @@ hrms-lite
 │
 ├── backend
 │   ├── controllers
+│   │   ├── employeeController.js
+│   │   └── attendanceController.js
+│   │
 │   ├── models
+│   │   ├── Employee.js
+│   │   └── Attendance.js
+│   │
 │   ├── routes
+│   │   ├── employeeRoutes.js
+│   │   └── attendanceRoutes.js
+│   │
+│   ├── .env
+│   ├── package.json
 │   └── server.js
 │
 ├── frontend
 │   ├── src
 │   │   ├── pages
+│   │   │   ├── Employees.js
+│   │   │   ├── AddEmployee.js
+│   │   │   ├── Attendance.js
+│   │   │   └── Dashboard.js
+│   │   │
 │   │   ├── services
-│   │   └── App.js
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   └── .gitignore
 │
 └── README.md
 ```
+
 
 
 
